@@ -120,6 +120,7 @@ public class Student {
                 ", courseEndDate=" + courseEndDate +
                 ", courseName='" + courseName + '\'' +
                 ", score=" + score +
+                ", courseDays=" + getCourseDays() +
                 '}';
     }
 }

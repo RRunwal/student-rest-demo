@@ -21,13 +21,13 @@ public class StudentRestController {
         Student student = new Student(studentName, studentId,
                 studentEmail, courseStartDate, courseEndDate,
                 courseName, score);
-        System.out.println(student);
+//        System.out.println(student);
         return student;
     }
 
     @PostMapping
     public Student postStudentObject(@RequestBody Student student) {
-        System.out.println(student);
+//        System.out.println(student);
         return student;
     }
 
